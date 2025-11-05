@@ -28,6 +28,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8163-common/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/amazon/mt8163-common/proprietary/vendor/etc/power_whitelist_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_whitelist_cfg.xml \
     vendor/amazon/mt8163-common/proprietary/vendor/etc/powerscntbl.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.cfg \
+    vendor/amazon/mt8163-common/proprietary/vendor/firmware/md32_d.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/md32_d.bin \
+    vendor/amazon/mt8163-common/proprietary/vendor/firmware/md32_p.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/md32_p.bin \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/fireos.hardware.amazonthermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/fireos.hardware.amazonthermal@1.0.so \
