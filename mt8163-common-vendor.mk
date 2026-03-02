@@ -8,7 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/amazon/mt8163-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/amazon/mt8163-common/proprietary/vendor/bin/hw/fireos.hardware.amazonthermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fireos.hardware.amazonthermal@1.0-service \
-    vendor/amazon/mt8163-common/proprietary/vendor/bin/hw/vendor.mediatek.hardware.power@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.power@2.0-service \
     vendor/amazon/mt8163-common/proprietary/vendor/bin/kisd:$(TARGET_COPY_OUT_VENDOR)/bin/kisd \
     vendor/amazon/mt8163-common/proprietary/vendor/bin/rpmb_svc:$(TARGET_COPY_OUT_VENDOR)/bin/rpmb_svc \
     vendor/amazon/mt8163-common/proprietary/vendor/bin/securetime:$(TARGET_COPY_OUT_VENDOR)/bin/securetime \
@@ -23,11 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8163-common/proprietary/vendor/etc/init/kisd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/kisd.rc \
     vendor/amazon/mt8163-common/proprietary/vendor/etc/init/rpmb_svc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rpmb_svc.rc \
     vendor/amazon/mt8163-common/proprietary/vendor/etc/init/securetime.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/securetime.rc \
-    vendor/amazon/mt8163-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.power@2.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.power@2.0-init.rc \
-    vendor/amazon/mt8163-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.power@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.power@2.0-service.rc \
     vendor/amazon/mt8163-common/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
-    vendor/amazon/mt8163-common/proprietary/vendor/etc/power_whitelist_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_whitelist_cfg.xml \
-    vendor/amazon/mt8163-common/proprietary/vendor/etc/powerscntbl.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.cfg \
     vendor/amazon/mt8163-common/proprietary/vendor/firmware/md32_d.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/md32_d.bin \
     vendor/amazon/mt8163-common/proprietary/vendor/firmware/md32_p.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/md32_p.bin \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
@@ -38,8 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/hw/gralloc.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt8163.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/hw/hwcomposer.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt8163.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/hw/memtrack.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt8163.so \
-    vendor/amazon/mt8163-common/proprietary/vendor/lib/hw/power.mt8163.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt8163.so \
-    vendor/amazon/mt8163-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.power@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.power@2.0-impl.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libGdmaScalerPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGdmaScalerPipe.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libJpgDecPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgDecPipe.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
@@ -52,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/lib_uree_mtk_video_secure_al.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_uree_mtk_video_secure_al.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
-    vendor/amazon/mt8163-common/proprietary/vendor/lib/libfpspolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfpspolicy.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
@@ -68,8 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/amazon/mt8163-common/proprietary/vendor/lib/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal.so \
-    vendor/amazon/mt8163-common/proprietary/vendor/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libtz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtz_uree.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/liburee_meta_drmkeyinstall_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liburee_meta_drmkeyinstall_v2.so \
@@ -80,5 +70,4 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libvp8enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8enc_sa.ca7.so \
     vendor/amazon/mt8163-common/proprietary/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
-    vendor/amazon/mt8163-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/amazon/mt8163-common/proprietary/vendor/lib/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@2.0.so
+    vendor/amazon/mt8163-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so
