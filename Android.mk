@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter biscuit checkers crown douglas giza karnak mustang rook,$(TARGET_DEVICE)),)
+ifneq ($(filter biscuit checkers cronos crown douglas giza karnak mustang rook,$(TARGET_DEVICE)),)
 
 endif
