@@ -14,8 +14,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8163-common/proprietary/vendor/bin/securetime:$(TARGET_COPY_OUT_VENDOR)/bin/securetime \
     vendor/amazon/mt8163-common/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
     vendor/amazon/mt8163-common/proprietary/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
-    vendor/amazon/mt8163-common/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
-    vendor/amazon/mt8163-common/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
     vendor/amazon/mt8163-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/amazon/mt8163-common/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/amazon/mt8163-common/proprietary/vendor/etc/init/fireos.hardware.amazonthermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fireos.hardware.amazonthermal@1.0-service.rc \
